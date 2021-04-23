@@ -2,7 +2,7 @@ use ndarray::prelude::*;
 
 
 pub fn foo(n: usize) -> Array2<f64> {
-    let mut s = Array::zeros((n, n));
+    let mut s: Array2::<f64> = Array::zeros((n, n));
 
     s[[0, 0]] = 1.0;
 
