@@ -10,8 +10,7 @@ fn foo_dup(n: usize) -> Array2<f64> {
     s
 }
 
-
 fn main() {
-    let s: Array2::<f64> = foo(10);
-    let s_dup: Array2::<f64> = foo_dup(10);
+    let s: Array2<f64> = foo(10);
+    let s_dup: Array2<f64> = foo_dup(10);
 }
